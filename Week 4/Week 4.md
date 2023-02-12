@@ -12,7 +12,7 @@ An attempt was made to use a name that does not exist in the class, namespace, o
 
 This error frequently occurs if you declare a variable in a loop or a try or if block and then attempt to access it from an enclosing code block or a separate code block
 
-Fixed by capitalizing the b in ViewBag
+Fixed by capitalizing the b in ViewBag, along with this error, fixed the misspelling of fifteen in the index.cshtml
 
 Compiler Error CS0161
 'method': not all code paths return a value
