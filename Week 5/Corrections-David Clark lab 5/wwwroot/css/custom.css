@@ -1,0 +1,41 @@
+﻿body {
+    padding: 1em;
+    font-family: Arial, Helvetica, sans-serif;
+    /* background-color: darkblue */  /* dark blue background color for the page makes it difficult 
+        to read your text, it was not a requirement for the assignment. If you want to use a color
+        for your background, use lighter colors that makes it easy to read the text.
+    */
+}
+
+p {
+    clear: left;
+    font-size: 1.2em;
+}
+
+img {
+    float: left;
+    width: 12em;
+}
+header{
+    text-align: center;
+    color: red;
+}
+nav{
+    text-align: right;
+    color: crimson;
+}
+footer{
+    text-align: center;
+    color: red;
+}
+
+/* needed for Contact form*/
+label {
+    display: inline-block;
+    width: 10em;
+    padding-right: 1em;
+}
+
+div {
+    margin-bottom: .5em;
+}

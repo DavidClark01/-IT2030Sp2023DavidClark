@@ -1,0 +1,95 @@
+﻿
+@*    <link href="~/custom.css" rel="stylesheet" /> This link is already in your
+    Views/Shared/_Layout.cshtml it should not be repeated here
+*@   
+    @*<p class="text-left">
+        Please Enter Your First Name here. <span class="text-uppercase"></span>.
+    </p>
+    <p class="text-center">
+        <span class="text-capitalize">Please enter a valid First name.</span>
+    </p>
+    <p class="text-left">
+        Please Enter Your Last Name here. <span class="text-lowercase"></span>.
+    </p>
+    <p class="text-center">
+        <span class="text-capitalize">Please enter a valid Last Name.</span>
+    </p>
+    <p class="text-left">
+        Please enter an Address here <span class="text-uppercase"></span>.
+    </p>
+    <p class="text-center">
+        <span class="text-capitalize">Please enter a valid Address.</span>
+    </p>
+    <p class="text-left">
+        Please enter an Phone here <span class="text-lowercase"></span>.
+    </p>
+    <p class="text-center">
+        <span class="text-capitalize">Please enter a valid Phone.</span>
+    </p>
+    <p class="text-left">
+        Please Enter Your Email here. <span class="text-uppercase"></span>.
+    </p>
+    <p class="text-center">
+        <span class="text-capitalize">Please enter a valid Email.</span>
+    </p>
+    <p class="text-left">
+        Please enter an Message here <span class="text-lowercase"></span>.
+    </p>
+    <p class="text-center">
+        <span class="text-capitalize">Please enter a valid Message.</span>
+    <footer>
+    David's Extreme Gear
+    </footer>
+}*@
+
+@*the following is the code you should have here*@
+@model ContactModel
+
+@{
+    ViewData["Title"] = "Contact Us";
+}
+
+<h1>Contact Us</h1>
+<p>Our mailing address is: <br />123 Anywhere Lane <br />Cleveland, Ohio 44130</p>
+<p>Phone: 216-555-6666<br/>
+Email: info@davidsextremegear.com<br/>
+Hours of operation: Mon-Fri 9am-5pm</p>
+<div class="container">
+    <form asp-action="Index" method="post">
+        <div class="row form-group">
+            <label asp-for="FirstName" class="col-md-3 col-form-label">First Name</label>
+            <div class="col-md-3">
+                <input asp-for="FirstName" class="form-control" />
+            </div>
+            <span asp-validation-for="FirstName" class="col text-danger"></span>
+        </div>
+
+        <div class="row form-group">
+            <label asp-for="LastName" class="col-md-3 col-form-label">Last Name</label>
+            <div class="col-md-3">
+                <input asp-for="LastName" class="form-control" />
+            </div>
+            <span asp-validation-for="LastName" class="col text-danger"></span>
+        </div>
+
+        @*Add the remaining code for the Adress, Phone, Email and
+        Message fields
+        same code as FirstName and LastName on lines 12-18 and 20-26
+        Be sure to change the field names to reflect Address, Phone, Email
+        and Message
+        *@
+        <div class="row">
+            <div class="col-offset-md-3">
+                <button type="submit" class="btn btn-primary">Submit</button>
+                <a asp-action="Index" class="btn btn-outline-secondary">Clear</a>
+
+            </div>
+        </div>
+    </form>
+</div>
+
+
+
+
+
+
