@@ -1,0 +1,2 @@
+The following project has had a product page that been added with details, images for the products, descriptions for said products, 
+project data, and a productlist. all witht he correct code that was provided by the video, with the parts of the code revised to work with my program so that it is accurate.
