@@ -1,0 +1,1 @@
+The following chnages have been made to the Lab, added a FAQ Page with all of the follwoing required code, added a new views for FAQ and a new Tools page a view were also added, session state services were added to the program.cs file
