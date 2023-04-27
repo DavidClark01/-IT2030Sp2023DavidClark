@@ -1,0 +1,1 @@
+Added The Nuget Package and all its assets that were needed, made the DBContext class , made a scaffolding item for the contact and product models and added 4 contacts and 6 products to each link respectfully.
