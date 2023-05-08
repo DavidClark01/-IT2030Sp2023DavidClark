@@ -15,6 +15,7 @@ Views/Home/About.cshtml
 Changed font from Times New Roman to Arial
 Changed font size of the text in the paragraphs
 Changed background color from white to light blue
+along with adding in a leaderboard for Gamification
 
 Views/Home/Index.cshtml
 Added 2 more images to the page
